@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.uts_aplikasi_krs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Data_Kelas"></activity>
+        <activity android:name=".CRUD_KRS" />
+        <activity android:name=".CRUD_Matkul" />
+        <activity android:name=".CRUD_Mhs" />
+        <activity android:name=".Data_diri_Mhs" />
+        <activity android:name=".Data_diri_Dosen" />
+        <activity android:name=".Data_diri_admin" />
+        <activity android:name=".Daftar_KRS" />
+        <activity android:name=".I_data_kls" />
+        <activity android:name=".I_CRUD_KRS" />
+        <activity android:name=".I_CRUD_Matkul" />
+        <activity android:name=".I_CRUD_Mhs" />
+        <activity android:name=".I_CRUD_Dosen" />
+        <activity android:name=".CRUD_Dosen" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Dosen" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
